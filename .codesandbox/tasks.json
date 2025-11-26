@@ -1,0 +1,14 @@
+{
+  "setupTasks": [
+    {
+      "command": "pip install -r requirements.txt",
+      "name": "Install Dependencies"
+    }
+  ],
+  "tasks": {
+    "run": {
+      "name": "Run Bot",
+      "command": "python main.py"
+    }
+  }
+}
